@@ -13,8 +13,8 @@ resource "aws_instance" "jenkinsec2" {
   }
 }
 
-resource "aws_s3_bucket" "my-static-web-bucket" {
-  bucket = "jenkinstf-ec2-static-bucket11"  # Replace with your desired bucket name
+resource "aws_s3_bucket" "my-static-web-bucket1" {
+  bucket = "jenkinstf-ec2-static-bucket"  # Replace with your desired bucket name
 
 }
 resource "aws_s3_bucket_website_configuration" "my-static-web-bucket" {
